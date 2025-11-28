@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3Sevens || Bridal Artistry & Floral Design</title>
+    <link rel="icon" type="image/png" href="assets/logo-black.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-social">
+            <a href="#" class="social-link"><img
+                    src="https://www.figma.com/api/mcp/asset/bb37f57a-9c0e-4b06-aa21-460817d7143a" alt="Twitter"></a>
+            <a href="#" class="social-link"><img
+                    src="https://www.figma.com/api/mcp/asset/e3d699ca-c169-4789-a6b0-00cb5bcc3393" alt="Facebook"></a>
+            <a href="#" class="social-link"><img
+                    src="https://www.figma.com/api/mcp/asset/14ed4d38-ce95-4dfc-a5a4-cb8206da6de4" alt="TikTok"></a>
+            <a href="#" class="social-link"><img
+                    src="https://www.figma.com/api/mcp/asset/a174a044-2382-4a06-8502-7ee4f6f73b06" alt="LinkedIn"></a>
+            <a href="#" class="social-link"><img
+                    src="https://www.figma.com/api/mcp/asset/9fb56d34-bdfc-4bf3-b65d-3bb712921436" alt="Instagram"></a>
+        </div>
+
+        <div class="navbar-center">
+            <div class="navbar-menu-left">
+                <a href="bridal-artistry.html" class="menu-link">Bridal Artistry</a>
+                <a href="floral-stories.html" class="menu-link">Floral Stories</a>
+            </div>
+            <div class="navbar-logo-container">
+                <img src="https://www.figma.com/api/mcp/asset/756e4751-5873-4e4e-959f-456d6c0f9775" alt="3Sevens Logo"
+                    class="navbar-logo">
+                <p class="logo-tagline">Since 2015</p>
+            </div>
+            <div class="navbar-menu-right">
+                <a href="showcase.html" class="menu-link">Showcase</a>
+                <a href="our-story.html" class="menu-link">Our Story</a>
+            </div>
+        </div>
+
+        <a href="contact-us.html" class="navbar-button">Contact Us</a>
+        <button class="navbar-menu-button" id="mobile-menu-toggle" aria-label="Toggle mobile menu">
+            <img src="https://www.figma.com/api/mcp/asset/3d0b75cf-51fc-469c-a90b-603403595d0f" alt="Menu" class="hamburger-icon">
+            <img src="https://www.figma.com/api/mcp/asset/87ca4aac-f52f-4193-a848-b38331f1c1d4" alt="Close" class="close-icon">
+        </button>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay" id="mobile-menu-overlay">
+        <div class="mobile-menu-header">
+            <div class="mobile-menu-social">
+                <a href="#" class="social-link"><img
+                        src="https://www.figma.com/api/mcp/asset/e3d699ca-c169-4789-a6b0-00cb5bcc3393" alt="Facebook"></a>
+                <a href="#" class="social-link"><img
+                        src="https://www.figma.com/api/mcp/asset/14ed4d38-ce95-4dfc-a5a4-cb8206da6de4" alt="TikTok"></a>
+                <a href="#" class="social-link"><img
+                        src="https://www.figma.com/api/mcp/asset/9fb56d34-bdfc-4bf3-b65d-3bb712921436" alt="Instagram"></a>
+            </div>
+            <button class="mobile-menu-close" id="mobile-menu-close" aria-label="Close mobile menu">
+                <img src="https://www.figma.com/api/mcp/asset/87ca4aac-f52f-4193-a848-b38331f1c1d4" alt="Close">
+            </button>
+        </div>
+        <div class="mobile-menu-logo">
+            <a href="index.html">
+                <img src="https://www.figma.com/api/mcp/asset/0769aa01-f6a8-45d8-ba82-aa292a6bd9c1" alt="3Sevens Logo">
+            </a>
+            <p class="mobile-menu-tagline">Since 2015</p>
+        </div>
+        <nav class="mobile-menu-nav">
+            <a href="bridal-artistry.html" class="mobile-menu-link">Bridal Artistry</a>
+            <a href="floral-stories.html" class="mobile-menu-link">Floral Stories</a>
+            <a href="showcase.html" class="mobile-menu-link">Showcase</a>
+            <a href="our-story.html" class="mobile-menu-link">Our Story</a>
+        </nav>
+        <div class="mobile-menu-cta">
+            <a href="contact-us.html" class="mobile-menu-button">Contact Us</a>
+        </div>
+    </div>
+    <!-- Hero Section with Navigation -->
+    <section class="hero-section">
+        <!-- Background Images - Multiple slides with different positions -->
+        <div class="hero-background">
+            <!-- Mc1: First slide -->
+            <div class="bg-slide active" data-slide="0" data-mc="Mc1">
+                <img src="https://www.figma.com/api/mcp/asset/c85392ba-f569-416f-a2ab-d313107a7526" alt="Background 1"
+                    class="hero-bg-image">
+            </div>
+            <!-- Mc2: Second slide with dual images -->
+            <div class="bg-slide" data-slide="1" data-mc="Mc2">
+                <div class="bg-dual-image">
+                    <!-- <img src="https://www.figma.com/api/mcp/asset/c85392ba-f569-416f-a2ab-d313107a7526" alt="Background 2a" class="hero-bg-image"> -->
+                    <img src="https://www.figma.com/api/mcp/asset/89c52346-1ec8-48f9-a44d-b946097f2270"
+                        alt="Background 4" class="hero-bg-image">
+                </div>
+            </div>
+            <!-- Mc3: Third slide -->
+            <div class="bg-slide" data-slide="2" data-mc="Mc3">
+                <img src="https://www.figma.com/api/mcp/asset/dc2581e5-f610-41b1-a594-6bb40dd0d3a2" alt="Background 3"
+                    class="hero-bg-image">
+            </div>
+            <!-- Mc4: Fourth slide -->
+            <div class="bg-slide" data-slide="3" data-mc="Mc4">
+                <img src="https://www.figma.com/api/mcp/asset/e8f7b829-4c3d-4152-8947-dee135782feb" alt="Background 2b"
+                    class="hero-bg-image hero-bg-image-overlay">
+
+            </div>
+            <!-- Mc5: Fifth slide (same as Mc1) -->
+            <div class="bg-slide" data-slide="4" data-mc="Mc5">
+                <img src="https://www.figma.com/api/mcp/asset/c85392ba-f569-416f-a2ab-d313107a7526" alt="Background 5"
+                    class="hero-bg-image">
+            </div>
+        </div>
+        <div class="background-overlay"></div>
+
+        <!-- Navigation Bar -->
+
+
+        <!-- Hero Content -->
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Where Love Blossoms in Every Detail</h1>
+                <p class="hero-description">Luxury bridal artistry and floral design that transforms your celebration
+                    into an unforgettable love story</p>
+                <div class="hero-buttons">
+                    <button class="btn-primary">Get in Touch</button>
+                    <button class="btn-secondary">Discover Our Story</button>
+                </div>
+            </div>
+
+            <!-- Image Slider -->
+            <div class="hero-slider">
+                <div class="slider-wrapper">
+                    <div class="slider-container">
+                        <!-- f1: Active in Mc1, Mc5 -->
+                        <div class="slider-item active" data-name="f1" data-index="0">
+                            <div class="slider-image-wrapper">
+                                <img src="https://www.figma.com/api/mcp/asset/c85392ba-f569-416f-a2ab-d313107a7526"
+                                    alt="Slide 1">
+                            </div>
+                        </div>
+                        <!-- f2: Active in Mc2 -->
+                        <div class="slider-item" data-name="f2" data-index="1">
+                            <img src="https://www.figma.com/api/mcp/asset/89c52346-1ec8-48f9-a44d-b946097f2270"
+                                alt="Slide 2">
+                        </div>
+                        <!-- f3: Active in Mc3 -->
+                        <div class="slider-item" data-name="f3" data-index="2">
+                            <img src="https://www.figma.com/api/mcp/asset/dc2581e5-f610-41b1-a594-6bb40dd0d3a2"
+                                alt="Slide 3">
+                        </div>
+                        <!-- f4: Active in Mc4 -->
+                        <div class="slider-item" data-name="f4" data-index="3">
+                            <img src="https://www.figma.com/api/mcp/asset/e8f7b829-4c3d-4152-8947-dee135782feb"
+                                alt="Slide 4">
+                        </div>
+                        <!-- f5: Duplicate of f1 for seamless infinite loop -->
+                        <div class="slider-item" data-name="f5" data-index="4">
+                            <div class="slider-image-wrapper">
+                                <img src="https://www.figma.com/api/mcp/asset/c85392ba-f569-416f-a2ab-d313107a7526"
+                                    alt="Slide 5">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Works Section -->
+    <section class="featured-works">
+        <div class="section-header">
+            <div class="section-divider"></div>
+            <h2 class="section-title">Our Signature Work</h2>
+            <p class="section-description">Each creation tells a story of love, crafted with passion and attention to
+                every detail</p>
+        </div>
+
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="assets/galleryImage1.jpg" alt="Gallery 1">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/galleryImage2.jpg" alt="Gallery 2">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/galleryImage3.jpg" alt="Gallery 3">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/galleryImage4.jpg" alt="Gallery 4">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/galleryImage5.jpg" alt="Gallery 5">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/galleryImage6.jpg" alt="Gallery 6">
+            </div>
+        </div>
+
+        <button class="btn-outline">View Our Showcase</button>
+    </section>
+
+    <!-- Bridal & Floral Sections -->
+    <section class="bridal-floral-sections">
+        <div class="effect-card bridal-card">
+            <img src="https://www.figma.com/api/mcp/asset/0d4d6c92-df53-46d8-9e42-5ce704e71085" alt="Bridal Artistry"
+                class="effect-image">
+            <div class="effect-overlay">
+                <div class="effect-content">
+                    <div class="section-divider"></div>
+                    <h3 class="effect-title">Bridal Artistry</h3>
+                    <p class="effect-description">Exquisite gowns designed to make your moment unforgettable</p>
+                    <button class="btn-underline">Explore Collection</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="effect-card floral-card">
+            <img src="https://www.figma.com/api/mcp/asset/50aff564-01d3-4ca6-bfce-fe96d9562256" alt="Floral Stories"
+                class="effect-image">
+            <div class="effect-overlay">
+                <div class="effect-content">
+                    <div class="section-divider"></div>
+                    <h3 class="effect-title">Floral Stories</h3>
+                    <p class="effect-description">Botanical arrangements that speak the language of love</p>
+                    <button class="btn-underline">View Designs</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stories Section -->
+    <section class="stories-section">
+        <div class="stories-header">
+            <div class="stories-text">
+                <div class="section-divider"></div>
+                <h2 class="section-title">Stories of Love</h2>
+                <p class="section-description">From intimate weddings to grand celebrations, each story we tell blooms
+                    with meaning and emotion</p>
+            </div>
+            <div class="stories-nav">
+                <button class="nav-arrow prev-arrow">
+                    <img src="https://www.figma.com/api/mcp/asset/c508ed2f-76e1-4ee1-972a-49ed2c7b7315" alt="Previous">
+                </button>
+                <button class="nav-arrow next-arrow">
+                    <img src="https://www.figma.com/api/mcp/asset/de8e01f5-2a76-45e9-8fcb-d0db3f983f35" alt="Next">
+                </button>
+            </div>
+        </div>
+
+        <div class="stories-content">
+            <div class="stories-images">
+                <div class="story-image-container">
+                    <img src="https://www.figma.com/api/mcp/asset/f544a663-c5c5-44fe-b081-594ea71d3091"
+                        alt="Story Image" class="story-main-image">
+                    <div class="story-image-overlay">
+                        <img src="https://www.figma.com/api/mcp/asset/781e408b-4835-476a-9174-1f71f71bd447"
+                            alt="Story Image Overlay" class="story-overlay-image">
+                    </div>
+                </div>
+            </div>
+
+            <div class="story-featured">
+                <div class="story-content">
+                    <div class="section-divider"></div>
+                    <p class="story-label">Featured Story</p>
+                    <h3 class="story-title">Amara & Chidi</h3>
+                    <p class="story-subtitle">A Garden Romance</p>
+                    <p class="story-text">Under a canopy of blooms and soft light, their love story unfolded in the most
+                        magical way. Every detail reflected their journey — from the delicate petals that framed the
+                        ceremony to the flowing silhouette of her gown.</p>
+                    <button class="btn-outline">Read Their Story</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="stories-pagination">
+            <div class="pagination-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA Section -->
+    <section class="contact-cta">
+        <div class="contact-header">
+            <div class="section-divider"></div>
+            <h2 class="section-title">Your Story Begins Here</h2>
+            <p class="section-description">Let's bring your vision to life — from the gown to the blooms, every detail
+                will be crafted with love and artistry</p>
+            <button class="btn-primary">Get in Touch</button>
+        </div>
+
+        <div class="contact-info">
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <img src="https://www.figma.com/api/mcp/asset/f9436f3d-6e1d-4aa7-835d-46666602c43a" alt="Email">
+                </div>
+                <div class="contact-details">
+                    <p class="contact-label">Email Us</p>
+                    <p class="contact-value">hello@3Sevens.ng</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <img src="https://www.figma.com/api/mcp/asset/9dfcc771-8722-401c-9819-a5b7bdfcaad2" alt="Phone">
+                </div>
+                <div class="contact-details">
+                    <p class="contact-label">Call Us</p>
+                    <p class="contact-value">+234 (0) 000 0000</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <img src="https://www.figma.com/api/mcp/asset/551b493e-a523-441d-a407-79d15ac4038f" alt="Location">
+                </div>
+                <div class="contact-details">
+                    <p class="contact-label">Visit Us</p>
+                    <p class="contact-value">Lagos, Nigeria</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img src="https://www.figma.com/api/mcp/asset/b9c0ec5e-509c-49c6-9011-1385c95dbf39" alt="3Sevens Logo"
+                    class="footer-logo">
+                <p class="footer-tagline">The Art of Bridal & Floral Expression</p>
+                <p class="footer-description">Celebrating love and individuality through timeless bridal artistry and
+                    floral storytelling in Nigeria and beyond.</p>
+            </div>
+
+            <div class="footer-links">
+                <h4 class="footer-heading">Explore</h4>
+                <ul class="footer-list">
+                    <li><a href="our-story.html">Our Story</a></li>
+                    <li><a href="bridal-artistry.html">Bridal Artistry</a></li>
+                    <li><a href="floral-stories.html">Floral Stories</a></li>
+                    <li><a href="showcase.html">Showcase</a></li>
+                    <li><a href="contact-us.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-social">
+                <h4 class="footer-heading">Follow Us</h4>
+                <div class="footer-social-icons">
+                    <a href="#" class="social-icon-circle"><img
+                            src="https://www.figma.com/api/mcp/asset/fd04241f-6007-4c87-80bc-b095e6fd80bd"
+                            alt="Instagram"></a>
+                    <a href="#" class="social-icon-circle"><img
+                            src="https://www.figma.com/api/mcp/asset/2cd08c2a-05f4-4a5c-910e-12e483f604da"
+                            alt="Facebook"></a>
+                    <a href="#" class="social-icon-circle"><img
+                            src="https://www.figma.com/api/mcp/asset/226b268f-60ae-4f72-a0e6-b2b27ce5fc0a"
+                            alt="Twitter"></a>
+                    <a href="#" class="social-icon-circle"><img
+                            src="https://www.figma.com/api/mcp/asset/c90bc286-a6c1-40c8-9853-66ae5a365542"
+                            alt="TikTok"></a>
+                    <a href="#" class="social-icon-circle"><img
+                            src="https://www.figma.com/api/mcp/asset/6dc0812c-f681-42d8-903f-75c70b432157"
+                            alt="LinkedIn"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p class="footer-copyright">© 2025 3Sevens. All rights reserved.</p>
+            <div class="footer-legal">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
